@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     show();
 });
 
-
+const fs = require("fs"); 
 show = () => {
 
     let daneJSON = fs.readFileSync("BookLibrary.json");
