@@ -1,16 +1,9 @@
 // wymaga do działania modułu prompt-sync ( npm install prompt-sync )
 // lubię wpisywać zmienne przy wywoływaniu funkcji :)
 
-const prompt = require('prompt-sync')({sigint: true}); // klauzula umożliwiająca wyjście z pętli za pomocą CTRL+C
 const fs = require("fs"); 
 
-console.log('Add a new Book to the Library');
-
-
-let name = prompt('Name => ');
-let surname = prompt('Surname => ');
-let title = prompt('Title => ');
-let format = prompt('Format => ');
+console.log('List of Books in the Library');
 
 let fetchBooks = () => {
     try {
