@@ -11,6 +11,12 @@ body {
 }
 
 a {
+  color:  yellow;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  rgb(148, 148, 9);
   text-decoration: none;
 }
 
@@ -21,10 +27,17 @@ a {
   border-radius: 20px 40px 0 40px;
 }
 
+.empty {
+  height: 400px;
+  width: 400px;
+  background-color: #023b4d;
+  border-radius: 20px 40px 0 40px;
+}
+
 button {
   font-family: 'Diablo';
   text-align: center;
-  color:  yellow;
+
   
   background-size: cover;
   text-decoration: none;
