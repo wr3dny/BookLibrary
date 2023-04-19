@@ -53,17 +53,19 @@ button {
   background-color: #023b4d;
   text-decoration: none;
   cursor: pointer;
-  height: 350px;
+  height: 250px;
   width: 350px;
   margin-top: 50px;
   margin-left: 50px;
-  transform-style: preserve-3d;
-  transition: 1s;font-size: 42px;
+  transition: 0.25s;
+  font-size: 42px;
 }
 
 button:hover {
   opacity: 0.50;
-  transform:  scale(1.1);
+  transform: translateX(-50px) translateY(-50px);
+  color: rgb(83, 183, 223);
+  border-radius: 10px;
 }
 
 .vert1 {
