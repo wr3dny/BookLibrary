@@ -15,15 +15,28 @@ show = () => {
     else{
         let dane = JSON.parse(daneJSON);
 
-        html = "<ul>";
+        html = "<table>";
+        html += "<tr>";
+        html += "<th>Name</th>";
+        html += "<th>Surname</th>";
+        html += "<th>Title</th>";
+        html += "<th>Format</th>";
+        html += "</tr>";
 
+        html += "<tr>";
         for(let index in dane){
-            html += `<li>`;
-            html += `${dane[index].name} ${dane[index].surname} ${dane[index].title} ${dane[index].format}`;
-            html += `</li>`;
-        }
+            html += `<td>${dane[index].name}</td>`;
+            html += `<td>${dane[index].surname}</td>`;
+            html += `<td>${dane[index].title}</td>`;
+            html += `<td>${dane[index].format}</td>`;
+          }
 
-        html += "</ul>";
+        html += "</tr>";
+
+
+
+     
+        html += "</table>";
     }
 
     document.querySelector("div#showUser").innerHTML = html;
