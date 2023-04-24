@@ -29,6 +29,8 @@ show = () => {
             html += `<td>${dane[index].surname}</td>`;
             html += `<td>${dane[index].title}</td>`;
             html += `<td>${dane[index].format}</td>`;
+            html += "</tr>";
+
           }
 
         html += "</tr>";
