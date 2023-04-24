@@ -10,28 +10,32 @@
 </head>
 <body>
     <div>
-        <p class="header">New book</p>
+        <div class="header">
+            <p >New book</p> 
+            <a href="main.html">Home</a>
+        </div>
+
         <div id="author">
                 <input type="text" id="name" placeholder="Name">
                 <input type="text" id="surname" placeholder="Surname">
+                <input type="text" id="title" placeholder="Title" >
         </div>
-        <div>
-            <input type="text" id="title" placeholder="Title" >
-        </div>
-
-        <p>
+        <div id="rest">
             <label>Format</label>
-            <select id="format">
-                <option value=""></option>
+            <br>
+            <select id="format" >
+                <option value="">format</option>
                 <option value="paperback">Paperback</option>
                 <option value="ebook">Ebook</option>
                 <option value="audiobook">Audiobook</option>
-            </select>
-        </p>
+            </select> 
+                <input type="text" id="series" placeholder="series">
+                <input type="text" id="seriesNumber" placeholder="book number in series">
+        </div>
     </div>
 
 
-    <button id="btn">zapisz</button>
-    <a href="main.html">Home</a>
+    <button id="btn">add</button>
+    
 </body>
 </html>
