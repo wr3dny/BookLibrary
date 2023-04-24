@@ -9,13 +9,16 @@ body {
 } 
 
 a {
-  color:  yellow;
+  color:  rgb(148, 148, 9);
   text-decoration: none;
+  font-size: 60px;
+
 }
 
 a:hover {
-  color:  rgb(148, 148, 9);
+  color:  yellow;
   text-decoration: none;
+  
 }
 
 .empty{
@@ -25,15 +28,6 @@ a:hover {
 }
 
 .button-box {
-  height: 300px;
-  width: 400px;
-  background-color: #023b4d;
-  border-radius: 20px 40px 0 40px;
-}
-
-
-
-.empty {
   height: 300px;
   width: 400px;
   background-color: #023b4d;
@@ -61,8 +55,6 @@ button:hover {
   border-radius: 50px 0 50px 0;
   border: 1px solid greenyellow;
   background-color: aliceblue;
-  
-
 }
 
 .vert1 {
@@ -109,11 +101,6 @@ button:hover {
   z-index: 2;
 }
 
-#search:hover {
-  background-color: aqua;
-  
-}
-
 .tooltip {
   position: relative;
   display: inline-block;
@@ -121,7 +108,7 @@ button:hover {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 200px;
   background-color: black;
   color: #fff;
   text-align: center;
