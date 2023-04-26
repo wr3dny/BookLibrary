@@ -37,13 +37,13 @@ button:hover {
   color: #8fb339;
   transform: translateX(50px) translateY(100px);
   border-radius: 0 0 25px 25px;
-  border-top: solid 1px rgb(187, 255, 1);
+  border-top: solid 1px #c2f970;
   background-color: #2e294e;
   transition: 0.5s;
 }
 
 .empty{
-  height: 400px;
+  height: 300px;
   width: 400px;
   visibility: hidden;
 }
@@ -61,7 +61,7 @@ button:hover {
   left: 20px;
   height: 250px;
   border: solid 2px #75d606e5;
-  box-shadow: 0px 10px 5px 0px rgb(187, 255, 1);
+  box-shadow: 0px 10px 5px 0px #c2f970;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -72,7 +72,7 @@ button:hover {
   left: 30px;
   height: 280px;
   border: solid 2px #75d606e5;
-  box-shadow: 0px 10px 5px 0px rgb(187, 255, 1);
+  box-shadow: 0px 10px 5px 0px #c2f970;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -83,7 +83,7 @@ button:hover {
   left: 10px;
   width: 350px;
   border: solid 2px #75d606e5;
-  box-shadow: 5px 0px 24px 1px rgb(187, 255, 1);
+  box-shadow: 5px 0px 24px 1px #c2f970;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
@@ -126,7 +126,7 @@ button:hover {
   top: 20px;
   left: 410px;
   width: 350px;
-  border: solid 2px #2bd9fe;
+  border: solid 2px #3aaed8;
   box-shadow: 5px 0px 24px 1px #2bd9fe;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
@@ -137,7 +137,7 @@ button:hover {
   top: 30px;
   left: 410px;
   width: 380px;
-  border: solid 2px #2bd9fe;
+  border: solid 2px #3aaed8;
   box-shadow: 5px 0px 24px 1px #2bd9fe;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
@@ -145,44 +145,44 @@ button:hover {
 
 .edit-vert-1 {
   position: absolute;
-  top: 10px;
-  left: 420px;
+  top: 310px;
+  left: 820px;
   height: 250px;
-  border: solid 2px #3aaed8;
-  box-shadow: 0px 10px 5px 0px #2bd9fe;
+  border: solid 2px #171a21;
+  box-shadow: 0px 10px 5px 0px #617073;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
 
 .edit-vert-2 {
   position: absolute;
-  top: 10px;
-  left: 430px;
+  top: 310px;
+  left: 830px;
   height: 280px;
-  border: solid 2px #3aaed8;
-  box-shadow: 0px 10px 5px 0px #2bd9fe;
+  border: solid 2px #171a21;
+  box-shadow: 0px 10px 5px 0px #617073;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
 
 .edit-horz-1 {
   position: absolute;
-  top: 20px;
-  left: 410px;
+  top: 320px;
+  left: 810px;
   width: 350px;
-  border: solid 2px #2bd9fe;
-  box-shadow: 5px 0px 24px 1px #2bd9fe;
+  border: solid 2px #171a21;
+  box-shadow: 5px 0px 24px 1px #617073;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
 
 .edit-horz-2 {
   position: absolute;
-  top: 30px;
-  left: 410px;
+  top: 330px;
+  left: 810px;
   width: 380px;
-  border: solid 2px #2bd9fe;
-  box-shadow: 5px 0px 24px 1px #2bd9fe;
+  border: solid 2px #171a21;
+  box-shadow: 5px 0px 24px 1px #617073;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
@@ -236,8 +236,8 @@ button:hover {
   top: 610px;
   left: 1620px;
   height: 250px;
-  border: solid 2px #3aaed8;
-  box-shadow: 0px 10px 5px 0px #2bd9fe;
+  border: solid 2px #ced0ce;
+  box-shadow: 0px 10px 5px 0px #e6e8e6;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -247,8 +247,8 @@ button:hover {
   top: 610px;
   left: 1630px;
   height: 280px;
-  border: solid 2px #3aaed8;
-  box-shadow: 0px 10px 5px 0px #2bd9fe;
+  border: solid 2px #ced0ce;
+  box-shadow: 0px 10px 5px 0px #e6e8e6;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -258,8 +258,8 @@ button:hover {
   top: 620px;
   left: 1610px;
   width: 350px;
-  border: solid 2px #2bd9fe;
-  box-shadow: 5px 0px 24px 1px #2bd9fe;
+  border: solid 2px #ced0ce;
+  box-shadow: 5px 0px 24px 1px #e6e8e6;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
@@ -269,8 +269,8 @@ button:hover {
   top: 630px;
   left: 1610px;
   width: 380px;
-  border: solid 2px #2bd9fe;
-  box-shadow: 5px 0px 24px 1px #2bd9fe;
+  border: solid 2px #ced0ce;
+  box-shadow: 5px 0px 24px 1px #e6e8e6;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
