@@ -23,7 +23,7 @@ button {
   font-family: monospace;
   font-size: 80px;
   text-align: center;
-  background-color: #8ea4d2;
+  background-color: #73648a;
   text-decoration: none;
   cursor: pointer;
   height: 250px;
@@ -38,10 +38,11 @@ button {
 button:hover {
   opacity: 1;
   color: #8fb339;
-  transform: translateX(50px) translateY(100px);
+  transform: translateX(50px) translateY(100px) rotate(360deg); ;
   border-radius: 0 0 0px 100px;
-  background-color: #745c97;
+  background-color: #453750;
   transition: 0.5s;
+  
 }
 
 .empty{
@@ -53,7 +54,7 @@ button:hover {
 .button-box {
   height: 300px;
   width: 400px;
-  background-color: #8ea4d2;
+  background-color: #73648a;
   border-radius: 25px 60px 0 60px;
 }
 
