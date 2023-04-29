@@ -2,7 +2,7 @@ body {
   justify-content: center;
   font-family: monospace;
   background-attachment: fixed;
-  background: linear-gradient(to right,#8d91a3,#496354);
+  background: linear-gradient(to left,#afb3f7,#f3f3f4);
 }
 
 .row1, .row2, .row3{
@@ -15,7 +15,7 @@ form .btn-go {
 form .btn-go:hover  {
   font-size: 80px;
   text-transform: uppercase;
-  text-shadow: 4px 4px 6px rgba(239, 249, 177, 1);
+  text-shadow: 2px 2px 3px #cce6f4;
 }
 
 button {
@@ -23,13 +23,14 @@ button {
   font-family: monospace;
   font-size: 80px;
   text-align: center;
-  background-color: #023b4d;
+  background-color: #8ea4d2;
   text-decoration: none;
   cursor: pointer;
   height: 250px;
   width: 350px;
   transition: 0.25s;
   font-size: 42px;
+  border: none;
   border-radius: 25px 0 0 0 ;
   opacity: 0.5;
 }
@@ -38,9 +39,8 @@ button:hover {
   opacity: 1;
   color: #8fb339;
   transform: translateX(50px) translateY(100px);
-  border-radius: 0 0 25px 25px;
-  border-top: solid 1px #c2f970;
-  background-color: #2e294e;
+  border-radius: 0 0 0px 100px;
+  background-color: #745c97;
   transition: 0.5s;
 }
 
@@ -53,7 +53,7 @@ button:hover {
 .button-box {
   height: 300px;
   width: 400px;
-  background-color: #023b4d;
+  background-color: #8ea4d2;
   border-radius: 25px 60px 0 60px;
 }
 
@@ -107,7 +107,7 @@ button:hover {
   left: 420px;
   height: 250px;
   border: solid 2px #3aaed8;
-  box-shadow: 0px 10px 5px 0px #2bd9fe;
+  box-shadow: 0px 10px 5px 0px #03f7eb;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -118,7 +118,7 @@ button:hover {
   left: 430px;
   height: 280px;
   border: solid 2px #3aaed8;
-  box-shadow: 0px 10px 5px 0px #2bd9fe;
+  box-shadow: 0px 10px 5px 0px #03f7eb;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -129,7 +129,7 @@ button:hover {
   left: 410px;
   width: 350px;
   border: solid 2px #3aaed8;
-  box-shadow: 5px 0px 24px 1px #2bd9fe;
+  box-shadow: 5px 0px 24px 1px #03f7eb;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
@@ -140,7 +140,7 @@ button:hover {
   left: 410px;
   width: 380px;
   border: solid 2px #3aaed8;
-  box-shadow: 5px 0px 24px 1px #2bd9fe;
+  box-shadow: 5px 0px 24px 1px #03f7eb;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
@@ -150,8 +150,8 @@ button:hover {
   top: 310px;
   left: 820px;
   height: 250px;
-  border: solid 2px #171a21;
-  box-shadow: 0px 10px 5px 0px #617073;
+  border: solid 2px #f9ab55;
+  box-shadow: 0px 10px 5px 0px #f58a07;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -161,8 +161,8 @@ button:hover {
   top: 310px;
   left: 830px;
   height: 280px;
-  border: solid 2px #171a21;
-  box-shadow: 0px 10px 5px 0px #617073;
+  border: solid 2px #f9ab55;
+  box-shadow: 0px 10px 5px 0px #f58a07;
   border-radius: 0px 0px 0px 10px;
   z-index: 1;
 }
@@ -172,8 +172,8 @@ button:hover {
   top: 320px;
   left: 810px;
   width: 350px;
-  border: solid 2px #171a21;
-  box-shadow: 5px 0px 24px 1px #617073;
+  border: solid 2px #f9ab55;
+  box-shadow: 5px 0px 24px 1px #f58a07;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
@@ -183,8 +183,8 @@ button:hover {
   top: 330px;
   left: 810px;
   width: 380px;
-  border: solid 2px #171a21;
-  box-shadow: 5px 0px 24px 1px #617073;
+  border: solid 2px #f9ab55;
+  box-shadow: 5px 0px 24px 1px #f58a07;
   border-radius: 0px 0px 0px 10px;
   z-index: 2;
 }
