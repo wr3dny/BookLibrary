@@ -111,8 +111,6 @@ show = () => {
             html += `<td>${dane[index].title}</td>`;
             html += `<td>${dane[index].format}</td>`;
             html += `<td><b onclick='edit(${index})'>edit</b></td>`;
-
-
             html += "</tr>";
 
           }
