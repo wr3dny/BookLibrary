@@ -41,7 +41,7 @@ button:hover {
   transform: translateX(50px) translateY(100px) rotate(360deg); ;
   border-radius: 0 0 0px 100px;
   background-color: #453750;
-  transition: 0.5s;
+  transition: 1s;
   
 }
 
