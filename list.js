@@ -34,10 +34,6 @@ show = () => {
           }
 
         html += "</tr>";
-
-
-
-     
         html += "</table>";
     }
 
@@ -45,17 +41,4 @@ show = () => {
 
 }
 
-
-{/* <tr>
-<td>{value.imie}</td>
-<td>{value.nazwisko}</td>
-<td>{value.email}</td>
-<td>{value.telefon}</td>
-<td>
-    <a href={`/edytuj/${index}`}>edytuj</a>
-</td>
-<td>
-    <a href={`/usun/${index}`}>usuń</a>
-</td>
-</tr> */}
 

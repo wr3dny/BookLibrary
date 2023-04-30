@@ -12,3 +12,41 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
+.return a {
+    text-decoration: none;
+    color: black;
+}
+
+.return a:hover {
+    color: #c9f0ff;
+    background-color: black;
+}
+
+.title {
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.js-return {
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+#showUser {
+    font-size: 20px; 
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+#showUser td {
+    border-left: .0625rem solid #000;  
+    border-bottom: .0625rem solid #000;
+}
+#showUser th {
+    width: 300px;  
+}
